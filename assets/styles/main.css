@@ -245,6 +245,7 @@ footer .footer-up .container .info p{
 footer .footer-up .container .links-list{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 50px;
 }
 footer .footer-up .container .links-list .links h3{
@@ -255,4 +256,11 @@ footer .footer-up .container .links-list .links ul li a{
     display: block;
     margin-bottom: 20px;
     color: var(--white);
+}
+footer .copyright{
+    padding: 40px 0;
+}
+footer .copyright p{
+    text-align: center;
+    color: rgb(255,255,255,.4);
 }
